@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+</head>
+<body bgcolor="lightyellow">
+    <h1>Employee Registration Form</h1>
+    <form>
+        <label>Employee Name:</label>
+        <input type="text" name="ename" placeholder="Enter your name" required>
+        <br><br>
+        <label>Password:</label>
+        <input type="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+        <label>Phone Number:</label>
+        <input type="tel" name="phone" placeholder="Enter your phone number" pattern="[0-9]{10}" required>
+        <br><br>
+        <label>Age:</label>
+        <input type="number" name="age" placeholder="Enter your age" required>
+        <br><br>
+        <label>Date of Birth:</label>
+        <input type="date" name="dob" required>
+        <br><br>
+        <label>Preferred interview Time:</label>
+        <input type="time" name="interview_time" required>
+        <br><br>
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male   
+        <input type="radio" name="gender" value="female"> Female
+        <br><br>
+        <label>Skill:</label>
+        <input type="checkbox" name="skill" value="HTML"> HTML
+        <input type="checkbox" name="skill" value="CSS"> CSS
+        <input type="checkbox" name="skill" value="JavaScript"> JavaScript
+        <br><br>
+        <label>Select Department:</label>
+        <select name="department" required>
+            <option value="cse">CSE</option>
+            <option value="ece">ECE</option>
+            <option value="eee">EEE</option>
+            <option value="mech">MECH</option>
+        </select>
+        <br><br>
+        <label>Upload Resume:</label>
+        <input type="file" name="resume" accept=".pdf,.doc,.docx" required>
+        <br><br>
+        <label>Address:</label>
+        <textarea name="address" placeholder="Enter your address" required></textarea>
+        <br><br>
+        <label>Work Experience:</label>
+        
+        <br><br>
+        <label>LinkedIn Profile:</label>
+        <input type="url" name="linkedin" placeholder="Enter LinkedIn URL">
+        <br><br>
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
