@@ -53,7 +53,7 @@
         <textarea name="address" placeholder="Enter your address" required></textarea>
         <br><br>
         <label>Work Experience:</label>
-        
+        <input type="range" name="experience" min="0" max="30" value="15">
         <br><br>
         <label>LinkedIn Profile:</label>
         <input type="url" name="linkedin" placeholder="Enter LinkedIn URL">
