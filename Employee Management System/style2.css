@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+}
+
+.FullBox {
+    width:50%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: rgb(246, 242, 242);
+}
+
+.Header {
+    background: rgb(0, 0, 131);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.Header h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+.Header h2 {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 10px;
+}
+
+.Content h2 {
+    color: #234b83;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.EmployeeInfo1, .EmployeeInfo2 {
+    border: 3px solid #aaa;
+    border-radius: 15px;
+    padding: 12px;
+    margin: 12px 0;
+}
+
+.EmployeeInfo1 h2, .EmployeeInfo2 h2 {
+    color: brown;
+    font-size: 20px;
+}
+
+.EmployeeInfo1 p, .EmployeeInfo2 p {
+    font-size: 16px;
+}
+
+.Footer {
+    background-color: #10102f;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+}
